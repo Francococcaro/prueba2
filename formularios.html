@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Formularios</h1>
+    </head>
+    <body>
+       <Formularios>
+            <input type="text" maxlength="5" placeholder="Nombre">
+            <input type="email" placeholder="info@abrelink.com">
+            <input type="tel" placeholder="telefono">
+            <input type="date">
+            <input type="url" placeholder="url" >
+            <input type="number" placeholder="number">
+            <input type="range" min="1" max="10">
+            <input type="submit">
+            <input type="time">
+            <input type="color">
+            <input type="serch" placeholder="serch">
+            <textarea>Puedes escribir aquí tus observaciones...</textarea>
+            <label>Navegador:</label>
+
+<select name="navegador" required>
+<option value="Chrome">Chrome</option>
+<option value="Firefox">Firefox</option>
+<option value="Edge">Edge</option>
+                        
+        </Formularios>
+
+        <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes">
+        <label for="wp-comment-cookies-consent">Grabar mi nombre, correo y página web en este navegador para la próxima vez que comente.</label>
+
+
+        <Formularios >
+            <h2>FORMULARIO DE CONTACTO:</h2>
+<form action="enviar-formulario.php" method="post"><label>Nombre:</label>
+<input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" /><label>Email:</label>
+<input name="email" required type="email" placeholder="Escribe tu email" />
+<label>Teléfono</label>
+<input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+<label>Tu web:</label>
+<input name="tu-url" type="url" placeholder="www.miweb.com" />
+<label form="cars">Seleccionar navegador:</label>
+<select name="navegador" required>
+<option value="Chrome">Chrome</option>
+<option value="Firefox">Firefox</option>
+<option value="Edge">Edge</option>
+</select>
+<label>Aficiones:</label>
+<input list="aficiones" type="text" />
+<datalist id="aficiones">
+<option value="Viajar"></option>
+<option value="Leer"></option></datalist>
+<label>Rango:</label>
+<input max="20" min="5" type="range" />
+<label>Selecciona tu color favorito:</label>
+<input name="color-favorito" type="color" />
+<label>Fecha:</label>
+<input name="fecha" type="date" />
+<label>Hora:</label>
+<input type="time" name="hora">
+<textarea cols="80" name="observaciones" rows="8">
+Puedes escribir aquí tus observaciones...</textarea>
+<input type="submit" value="Enviar" />
+</form>
+        </Formularios>
+    <img src="C:\Users\Usuario\Desktop\prueba2\images\450_1000.png"><br>
+    <video src="C:\Users\Usuario\Desktop\prueba2\video\VIDEO-2022-03-09-09-07-31.mp4" controls>video</video><br>
+    <audio src="C:\Users\Usuario\Desktop\prueba2\Audio\WhatsApp Ptt 2022-03-09 at 9.05.39 AM.ogg" controls>Audio</audio>
+    </body>
+</html>
